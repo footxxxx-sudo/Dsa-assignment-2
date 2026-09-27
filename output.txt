@@ -1,0 +1,61 @@
+K-WAY MERGE USING MIN HEAP
+
+Initial Heap:
+[10, 20, 15]
+
+Step 1: Delete 10
+Heap: [15, 20, 30]
+
+Step 2: Delete 15
+Heap: [20, 30, 35]
+
+Step 3: Delete 20
+Heap: [30, 35, 40]
+
+Step 4: Delete 30
+Heap: [35, 40, 50]
+
+Step 5: Delete 35
+Heap: [40, 50, 55]
+
+Step 6: Delete 40
+Heap: [50, 55, 60]
+
+Step 7: Delete 50
+Heap: [55, 60, 70]
+
+Step 8: Delete 55
+Heap: [60, 70, 75]
+
+Step 9: Delete 60
+Heap: [70, 75, 80]
+
+Step 10: Delete 70
+Heap: [75, 80]
+
+Step 11: Delete 75
+Heap: [80]
+
+Step 12: Delete 80
+Heap: []
+
+Final K-Way Output:
+10 15 20 30 35 40 50 55 60 70 75 80
+
+
+PAIRWISE MERGE
+
+After merging L1 and L2:
+10 20 30 40 50 60 70 80
+
+Comparisons = 7
+
+After merging result with L3:
+10 15 20 30 35 40 50 55 60 70 75 80
+
+Comparisons = 11
+
+Final Pairwise Output:
+10 15 20 30 35 40 50 55 60 70 75 80
+
+Total Pairwise Comparisons = 18
